@@ -23,10 +23,10 @@ The production site is generated in `dist/`.
 Edit `src/data/profile.js`. Update your name, summary, social links, experience, projects, skills and education there.
 
 ## Add your photograph
-Place your image in `public/profile.jpg`, then set `photo: '/profile.jpg'` in `src/data/profile.js`. If no image is supplied, the site displays an initials-based placeholder.
+Your supplied professional photograph is already included as `public/profile.jpg`. To replace it, overwrite that file with another image.
 
 ## Add your CV
-Place your PDF at `public/Hitendra-Singh-CV.pdf`. The Resume buttons link to this path. Replace the sample placeholder file with your own PDF.
+Your supplied CV is already included as `public/Hitendra-Singh-CV.pdf` and linked from the Resume buttons. Replace this PDF when your CV is updated.
 
 ## Add or edit projects
 Update the `projects` array in `src/data/profile.js`. Use verified outcomes only; replace the sample descriptions and placeholders with approved public information.
